@@ -1,0 +1,107 @@
+.App {
+  display:flex;
+  justify-content: space-around;
+  color:rgb(94, 32, 151);
+  text-align: center;
+  background-color: rgb(202, 202, 250);
+  padding: 5px;
+}
+
+.NavLogo h1{
+  color:rgb(94, 32, 151);
+  font-size: 25px;
+  font-family: georgia;
+  font-weight: 800;
+  text-align: left;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  margin-left: -90px;
+
+}
+.NavLogo img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 70px;
+}
+.NavLogo {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-right: 10px;
+}
+.NavMenu{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap:40px;
+  margin-left: 10px;
+}
+.NavMenu li{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  gap:3px;
+  cursor: pointer;
+  font-family: "Edu SA Hand", cursive;
+}
+.NavMenu hr{
+  border:none;
+  width:80%;
+  height: 2px;
+  background-color: rgb(94, 32, 151);
+  border-radius: 10px;
+  ;
+}
+.NavLogin{
+  display: flex;
+  list-style:none;
+  cursor: pointer;
+  gap:40px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  
+}
+.NavLogin button{
+  width:150px;
+  height: 40px;
+  background-color: rgb(202, 202, 250);
+  border: 1px solid rgb(94, 32, 151);
+  color: rgb(94, 32, 151);
+  font-family: "Edu SA Hand", cursive;
+  
+  font-size: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.NavLogin button:active{
+  background-color: rgb(94, 32, 151);
+  color: white;
+  
+}
+.Cart-count{
+  width:18px;
+  height:18px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  margin-left: -50px;
+  background-color: rgb(94, 32, 151);
+  color: rgb(202, 202, 250);
+  border-radius: 14px;
+  font-size: 10px;
+  font-weight: 700;
+
+}
+.NavLogin img{
+  width: 30px;
+  height: 30px;
+  
+}
