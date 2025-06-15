@@ -2,8 +2,7 @@
   display:flex;
   justify-content: space-around;
   color:rgb(94, 32, 151);
-  
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgb(202, 202, 250);
   padding: 10px 40px;
 }

@@ -1,0 +1,74 @@
+.news {
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: linear-gradient(90deg, rgba(202, 202, 250, 0.8) 0%, rgba(255, 255, 255, 0.8) 60%);
+    border-radius: 20px;
+    padding: 0px 140px;
+    box-sizing: border-box;
+    margin-top:250px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.news h1 {
+    font-size: 40px;
+    color: rgb(94, 32, 151);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.news p {
+    font-size: 1.2rem;
+    color: rgb(94, 32, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.news input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(94, 32, 151);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap:10px;
+}
+.news button {
+    padding: 10px 20px;
+    background-color: rgb(94, 32, 151);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    gap:10px;
+}
+.news button:active {
+    background-color: rgb(74, 24, 121);
+}
+.news button:hover {
+    background-color: rgb(74, 24, 121);
+    transition: background-color 0.3s ease-in-out;
+}
+.news input[type="email"]:focus {
+    outline: none;
+    border-color: rgb(74, 24, 121);
+}
+.news input[type="email"]::placeholder {
+    color: rgb(94, 32, 151);
+    font-family: "Edu SA Hand", cursive;
+}
+.news input[type="email"]:hover {
+    border-color: rgb(74, 24, 121);
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
